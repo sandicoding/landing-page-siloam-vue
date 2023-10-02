@@ -1,0 +1,281 @@
+@media screen and (min-width: 800px) {
+  body,
+  ul {
+    font-size: 14px;
+  }
+
+  body {
+    line-height: 17.5px;
+  }
+
+  h2 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+
+  .r-container {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .r-column-3 {
+    max-width: calc(33.33333% - 16px);
+    min-width: calc(33.33333% - 16px);
+    width: calc(33.33333% - 18px);
+  }
+
+  .r-column-2 {
+    margin: 0 8px;
+    max-width: calc(50% - 16px);
+    min-width: calc(50% - 16px);
+  }
+}
+
+@media screen and (min-width: 456px) and (max-width: 800px) {
+  .r-column-2 {
+    margin: 0 8px;
+    max-width: calc(100% - 16px) !important;
+    min-width: calc(100% - 16px) !important;
+  }
+}
+
+body {
+  background: #fff;
+  box-sizing: border-box;
+  font-weight: 400;
+  letter-spacing: 0.002em;
+  margin: 0;
+  min-height: -webkit-fill-available;
+  padding: 0;
+}
+
+.r-center-flex {
+  display: flex;
+  align-items: center;
+}
+.r-isClickAble {
+  cursor: pointer;
+}
+.r-wrap-flex {
+  flex-wrap: wrap;
+}
+
+.r-isWrap {
+  flex-wrap: wrap;
+}
+
+.r-column-2 {
+  margin: 0 8px;
+  max-width: calc(50% - 16px);
+  min-width: calc(50% - 16px);
+}
+
+.r-wd-150,
+.r-wd-150-max {
+  max-width: 150px;
+}
+.r-wd-150 {
+  min-width: 150px;
+}
+
+.r-isClickAble {
+  cursor: pointer;
+}
+
+* {
+  color: #333;
+  font-family: Nunito Sans, sans-serif;
+}
+
+.r-wd-500,
+.r-wd-500-max {
+  max-width: 500px;
+}
+
+.r-wd-500 {
+  min-width: 500px;
+}
+
+.r-wd-350,
+.r-wd-350-max {
+  max-width: 350px;
+}
+.r-wd-350 {
+  min-width: 350px;
+}
+.r-mt-16 {
+  margin-top: 16px !important;
+}
+
+.r-ml-16 {
+  margin-left: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre {
+  margin: 0;
+  padding: 0;
+}
+
+.r-mt-30 {
+  margin-top: 30px !important;
+}
+
+.r-mt-10 {
+  margin-top: 10px !important;
+}
+.r-fullCenter-flex {
+  justify-content: center;
+}
+
+.r-center-flex,
+.r-fullCenter-flex {
+  align-items: center;
+  display: flex;
+}
+
+.r-wd-400,
+.r-wd-400-max {
+  max-width: 400px;
+}
+.r-wd-400 {
+  min-width: 400px;
+}
+
+.r-ml-auto,
+.r-mlr-auto {
+  margin-left: auto !important;
+}
+
+.r-main {
+  min-height: calc(100vh - 450px);
+}
+
+.r-isExpand {
+  width: 100%;
+}
+
+.r-mtb-16 {
+  margin-bottom: 16px !important;
+  margin-top: 16px !important;
+}
+
+.r-ptb-60 {
+  padding-bottom: 60px !important;
+  padding-top: 60px !important;
+}
+.r-blue-40-bg,
+.s-banner-blue-40-bg {
+  background: #eff7ff !important;
+}
+
+.s-mysiloam-text .s-mysiloam-body h2 {
+  font-size: 32px;
+}
+.s-mysiloam-text .s-mysiloam-body h1,
+.s-mysiloam-text .s-mysiloam-body h2,
+.s-mysiloam-text .s-mysiloam-body h3 {
+  color: #1c2674;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.s-mysiloam-text .s-mysiloam-body p {
+  color: #33333380;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.r-primary-bg,
+.s-banner-primary-bg {
+  background: #1c2674 !important;
+}
+
+.e-cswiper,
+.r-cswiper {
+  margin-bottom: 20px;
+  position: relative;
+}
+.r-cswiper {
+  width: 100%;
+}
+.swiper-horizontal {
+  touch-action: pan-y;
+}
+.swiper,
+swiper-container {
+  display: block;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.swiper-android .swiper-slide,
+.swiper-wrapper {
+  transform: translateZ(0);
+}
+.swiper-wrapper {
+  box-sizing: content-box;
+  display: flex;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+  transition-timing-function: ease;
+  width: 100%;
+  z-index: 1;
+}
+
+.swiper-slide,
+swiper-slide {
+  display: block;
+  flex-shrink: 0;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+  width: 100%;
+}
+
+.swiper .swiper-notification,
+swiper-container .swiper-notification {
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  z-index: -1000;
+}
+
+.r-white-text,
+div .r-white-text * {
+  color: #fff !important;
+}
+
+.r-wd-600,
+.r-wd-600-max {
+  max-width: 600px;
+}
+.r-wd-600 {
+  min-width: 600px;
+}
+
+.r-ml-auto,
+.r-mlr-auto {
+  margin-left: auto !important;
+}
+.r-mtb-16 {
+  margin-bottom: 16px !important;
+  margin-top: 16px !important;
+}
+.r-justify-text {
+  text-align: justify;
+}
